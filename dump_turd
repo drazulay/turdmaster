@@ -1,3 +1,3 @@
 #! /bin/sh
 
-is_turd "$1" && rm -fv "$1" | sed 's/^/💩 /' || printf '🤙 %s\n' "$1"
+is_turd "$1" && rm -frv "$1" | sed 's/^/💩 /' || printf '🤙 %s\n' "$1"
