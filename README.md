@@ -12,7 +12,7 @@ When moving to linux or windows, or deploying files to a server, these turds are
 
 Checks whether a file is a turd, exits with status 0 if true or 1 if false.
 
-It does this not by checking whether the file extension starts with `._` but by checking if the file header bytes translate to the hexadecimal string `00051607000200004d6163204f53205820202020202020200002000000090000003200000eb00000000200000ee20000011e0000000000000000000000000000000000000000000000000000000000000000000041545452`.
+It does this not by checking whether the file extension starts with `._` but by checking if the if the first 16 file header bytes translate to the hexadecimal string `00051607000200004d6163204f532058`.
 
 ### `dump_turd`
 
