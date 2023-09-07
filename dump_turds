@@ -2,8 +2,8 @@
 
 find /Volumes/KINGSTON \( \
 	-name '._*' \
+	-or -name '*DS_Store' \
 	-or -name '.fseventsd' \
-	-or -name '.DS_Store' \
 	-or -name '.Trashes' \
 	-or -name '.TemporaryItems' \
 	-or -name '.Spotlight-V100' \
