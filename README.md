@@ -13,7 +13,7 @@ Specifically, they are the files:
 - `.TemporaryItems`;
 - `.Trashes`;
 - `.fseventsd`;
-- Any file that starts with `._` and of which the first 16 header bytes translate to the hexadecimal string `00051607000200004d6163204f532058`.
+- Any file that starts with `._` and of which the first 16 header bytes translates to the hexadecimal string `00051607000200004d6163204f532058`.
 
 When moving to linux or windows, or deploying files to a server, these *turds* are of no value.
 
