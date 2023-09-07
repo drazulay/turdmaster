@@ -1,0 +1,3 @@
+#! /bin/sh
+
+find /Volumes/KINGSTON -name '._*' -exec dump_turd {} \;
