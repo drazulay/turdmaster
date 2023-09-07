@@ -1,3 +1,10 @@
 #! /bin/sh
 
-[ "$(cat "$1" | xxd -p -g2 -c16 | head -n1)" == "00051607000200004d6163204f532058" ] || exit 1
+[ "$(basename "$1")" == ".DS_Store" ] \
+	|| [ "$(basename "$1")" == ".DocumentRevisions-V100" ] \
+	|| [ "$(basename "$1")" == ".Spotlight-V100" ] \
+	|| [ "$(basename "$1")" == ".TemporaryItems" ] \
+	|| [ "$(basename "$1")" == ".Trashes" ] \
+	|| [ "$(basename "$1")" == ".fseventsd" ] \
+	|| [ "$(cat "$1" | xxd -p -g2 -c16 | head -n1)" == "00051607000200004d6163204f532058" ] \
+	|| exit 1
