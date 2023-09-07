@@ -28,3 +28,7 @@ Checks whether a file is a turd and removes it if so.
 ### `dump_turds`
 
 Searches a path for turds and removes them.
+
+## Installation
+
+Just put the scripts in your `$HOME/.bin` folder or put them in `${HOME}/.bin/turdmaster` - make sure the one you use is added to `$PATH` in your shell's rc file.
