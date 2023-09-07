@@ -31,4 +31,4 @@ Searches a path for turds and removes them.
 
 ## Installation
 
-Just put the scripts in your `$HOME/.bin` folder or put them in `${HOME}/.bin/turdmaster` - make sure the one you use is added to `$PATH` in your shell's rc file.
+Just put the scripts in your `${HOME}/.bin` folder or put them in `${HOME}/.bin/turdmaster` - make sure the one you use is added to `${PATH}` in your shell's rc file.
