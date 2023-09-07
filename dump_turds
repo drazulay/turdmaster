@@ -1,3 +1,11 @@
 #! /bin/sh
 
-find /Volumes/KINGSTON -name '.*' -exec dump_turd {} \;
+find /Volumes/KINGSTON \( \
+	-name '._*' \
+	-or -name '.fseventsd' \
+	-or -name '.DS_Store' \
+	-or -name '.Trashes' \
+	-or -name '.TemporaryItems' \
+	-or -name '.Spotlight-V100' \
+	-or -name '.DocumentRevisions-V100' \) \
+	-exec dump_turd {} \;
