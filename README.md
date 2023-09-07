@@ -4,7 +4,7 @@ Functions to delete Mac OSX filesystem turds
 
 ## What are Mac OSX filesystem turds?
 
-Turds are filesystem artefacts on Mac OSX that start with `.`, they are created by the OS to hold extra filesystem attributes supported by HFS+.
+Turds are filesystem artefacts on Mac OSX that start with `.` and are created by the OS to hold extra filesystem attributes supported by HFS+.
 
 Specifically, they are the files:
 
