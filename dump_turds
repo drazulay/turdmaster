@@ -1,6 +1,6 @@
 #! /bin/sh
 
-find /Volumes/KINGSTON \( \
+find "$1" \( \
 	-name '._*' \
 	-or -name '*DS_Store' \
 	-or -name '.fseventsd' \
